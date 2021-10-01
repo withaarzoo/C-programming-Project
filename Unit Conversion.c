@@ -19,7 +19,7 @@ int main()
     while (b == 1)
     {
 
-        printf("press 1 if you want to convert km to mile\npress 2 if you want to convert inch to feet\npress 3 if you want to convert cm to inch\npress 4 if you want to convert pount to kg\npress 5 if you want to convert inch to meter\npress 6 if you want to convert celsius to fahrenheit\n\n");
+        printf("Press 1 if you want to convert km to mile\nPress 2 if you want to convert inch to feet\nPress 3 if you want to convert cm to inch\nPress 4 if you want to convert pount to kg\nPress 5 if you want to convert inch to meter\nPress 6 if you want to convert celsius to fahrenheit\n\n");
         scanf("%d", &a);
         printf("\n");
 
