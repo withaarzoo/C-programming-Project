@@ -36,7 +36,7 @@ int main()
             scanf("%f", &d);
 
             float feet = d / 12;
-            printf("%f inch = %f feet\n\n", d, feet);
+            printf("%f inch = %f feet\n\n", d, feet );
         }
         else if (a == 3)
         {
