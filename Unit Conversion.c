@@ -13,7 +13,7 @@ int main()
     printf("press 1 for start this system : ");
     scanf("%d", &b);
     printf("\n");
-    printf("---- Wellcome ----\n");
+    printf("---- Wellcome ----\n" );
     printf("\n");
 
     while (b == 1)
