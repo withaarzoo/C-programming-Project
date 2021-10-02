@@ -10,10 +10,10 @@ int main()
 {
     int a, b, c, e, f, g,h;
     float d;
-    printf("press 1 for start this system : ");
+    printf("Press 1 for start this system : ");
     scanf("%d", &b);
     printf("\n");
-    printf("----wellcome----\n");
+    printf("---- Wellcome ----\n");
     printf("\n");
 
     while (b == 1)
@@ -25,14 +25,14 @@ int main()
 
         if (a == 1)
         {
-            printf("enter your km value : ");
+            printf("Enter your km value : ");
             scanf("%d", &c);
 
             printf("%d km = %.2f mile\n\n", c, c / 1.609344);
         }
         else if (a == 2)
         {
-            printf("enter your inch value : ");
+            printf("Enter your inch value : ");
             scanf("%f", &d);
 
             float feet = d / 12;
@@ -40,28 +40,28 @@ int main()
         }
         else if (a == 3)
         {
-            printf("enter your cm value : ");
+            printf("Enter your cm value : ");
             scanf("%d", &e);
 
             printf("%d cm = %.2f inch\n\n", e, e / 2.54);
         }
         else if (a == 4)
         {
-            printf("enter your pound value : ");
+            printf("Enter your pound value : ");
             scanf("%d", &f);
 
             printf("%d pound = %.2f kg\n\n", f, f * 0.45359237);
         }
         else if (a == 5)
         {
-            printf("enter your inch value : ");
+            printf("Enter your inch value : ");
             scanf("%d", &g);
 
             printf("%d inch = %.2f meter\n\n", g, g * 0.025);
         }
         else if (a==6)
         {
-            printf("enter your celsius value : ");
+            printf("Enter your celsius value : ");
             scanf("%d", &h);
 
             printf("%d celsius = %d fahrenheit\n\n", h, (h*9/5)+32);
@@ -70,7 +70,7 @@ int main()
 
         else
         {
-            printf("please check your input value\n\n");
+            printf("Please check your input value\n\n");
         }
     }
 }
