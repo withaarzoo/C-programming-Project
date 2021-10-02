@@ -10,10 +10,10 @@ int main()
 {
     int a, b, c, e, f, g,h;
     float d;
-    printf("press 1 for start this system : ");
+    printf("Press 1 for start this system : ");
     scanf("%d", &b);
     printf("\n");
-    printf("----wellcome----\n");
+    printf("---- Wellcome ----\n");
     printf("\n");
 
     while (b == 1)
