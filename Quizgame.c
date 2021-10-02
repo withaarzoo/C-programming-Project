@@ -15,7 +15,7 @@ int main()
 	char playername[20];
 	mainhome:
 	system("cls");
-	printf("\t\tC PROGRAM QUIZ GAME : Created by Aarzoo\n");
+	printf("\t\tC PROGRAM QUIZ GAME : Created by Aarzoo\n ");
 	printf("\n\t\t________________________________________");
 
 	printf("\n\t\t\t   WELCOME ");
